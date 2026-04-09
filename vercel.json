@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://https://NEON-CLOUD.vercel.app/api/:path*"
+    },
+    {
+      "source": "/transcripts/:path*",
+      "destination": "http://https://NEON-CLOUD.vercel.app/transcripts/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
